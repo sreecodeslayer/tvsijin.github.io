@@ -7,16 +7,15 @@ title: Blog
   {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}
     {% unless forloop.first %}</ul><hr/>{% endunless %}
-    <h2 id="y{{post.date | date: "%Y"}}" class="page-title">{{ currentdate }}</h2>
+    <a href="{{ site.baseurl }}{{ post.url }}">
+    <h2 id="y{{post.date | date: "%Y"}}" class="page-title main-box">{{ post.title }}</h2></a>
     <ul class="related-posts">
     {% assign date = currentdate %}
   {% endif %}
   <li>
-    <h4>
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        <span>{{ post.title }}</span>
-        <small>{{ post.date | date: "%m/%d" }}</small>
-      </a>
+    <h4 class="sub-box">
+        <!-- <span></span> -->
+        {{ post.date | date: "%d/%m/%y" }}
     </h4>
   </li>
   {% if forloop.last %}</ul><hr/>{% endif %}

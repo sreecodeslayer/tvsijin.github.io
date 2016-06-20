@@ -65,3 +65,29 @@
 .highlight .vi { color: teal; }
 .highlight .il { color: #009999; }
 .highlight .gc { color: #999; background-color: #EAF2F5; }
+
+
+
+.main-box{
+	background: #FF8400;
+	border-radius: 32px 0 0 32px;
+	font-size: 1.9rem;
+	color: #FFF;
+	line-height: 1;
+	font-family: "PT Serif", serif;
+	font-weight: normal;
+	padding: 10px 35px 13px 62px;
+	margin: 0px 0 0;
+}
+
+.sub-box{
+	font-size: 0.8rem;
+	display: block;
+	background: #FFE454;
+	color: #000;
+	font-family: sans-serif;
+	margin: 1px 0 0;
+	font-weight: normal;
+	padding: 6px 10px 5px 32px;
+	margin-left: 32px;
+}
