@@ -2,18 +2,16 @@
 permalink:        pretty
 
 # Setup
-url:              http://qwtel.com
+url:              https://tvsijin.github.io
 
 # Set to '' in case of hosting on `http://<your-github-name>.github.io`
-baseurl:          /hydejack
+baseurl:          ''
 
-title:            Hydejack
+title:            Random Commits
 
 # Markdown enabled, however don't use more than one paragraph (enforced by `>`)
 description:      >
-  A pretentious two-column [Jekyll](http://jekyllrb.com/) theme, stolen by [`@qwtel`](https://twitter.com/qwtel)
-  from [Hyde](http://hyde.getpoole.com).
-  You could say it was.. [hydejacked](http://media3.giphy.com/media/makedRIckZBW8/giphy.gif).
+  Personal Blog of Sijin Krishnan.
 
 # The tags listed as entries in the sidebar
 sidebar_tags:     [jekyll, hyde]
@@ -23,24 +21,21 @@ image:            /hydejack/public/img/nap.jpg
 color:            '#A85641'
 
 author:
-  name:           'Florian Klampfer'
+  name:           'Sijin Krishnan'
 
   # Setting social media usernames will add icons at the bottom of the sidebar
-  twitter:        qwtel
-  github:         qwtel
+  twitter:        tvsijin
+  github:         tvsijin
 
   # Setting a disqus username will enable the comment section
-  disqus:         qwtel
+  disqus:         tvsijingithubio
 
   # This photo will be used in the about section
   photo:          http://qwtel.com/public/img/flo.jpg
 
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:          |
-    Hi, I'm Florian or [`@qwtel`](https://www.twitter.com/qwtel), which isn't an acronym,
-    I just [wanted a short username](http://qwtel.com/how-to-find-a-short-username) and that one happened to be available.
-
-    Read my thoughts on [#software](http://qwtel.com/tag/software) and [#cryptoeconomics](http://qwtel.com/tag/cryptoeconomics).
+    Hi, I'm Sijin Krishnan.
 
 kramdown:
   math_engine: mathjax
