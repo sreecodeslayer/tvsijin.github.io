@@ -55,12 +55,12 @@ h1, h2, h3, h4, h5, h6 {
 a {
   position: relative;
   padding-bottom: 0.15em;
-  border-bottom: 0.15em solid transparent;
+ 
 }
 a:hover,
 a:focus {
-  text-decoration: underline;
-  border-bottom: 0.15em solid;
+  text-decoration: none;
+  
 }
 
 /* Styles for "Cesar" link hover effect. */
