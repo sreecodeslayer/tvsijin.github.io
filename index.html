@@ -13,10 +13,10 @@ title: Blog
     {% assign date = currentdate %}
   {% endif %}
   <li>
-    <h4 class="sub-box">
-        <!-- <span></span> -->
-        {{ post.date | date: "%d/%m/%y" }}
+    <h4 class="sub-box"> Posted on
+        {{ post.date | date: "%D" }}
     </h4>
+    <div class ="desc-post">{{ post.content | strip_html | truncatewords:45}}</div>
   </li>
   {% if forloop.last %}</ul><hr/>{% endif %}
 {% endfor %}
