@@ -93,9 +93,9 @@
 .avatar{
 	display: block;
     margin: auto;
-    width: 70%;
     border-radius: 80%;
-    opacity: 0.8;
+    height: auto;
+    max-height: 42%;
 }
 
 .desc-post{
