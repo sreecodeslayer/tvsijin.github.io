@@ -272,7 +272,7 @@ tbody tr:nth-child(odd) th {
   padding-right: 5px;
   margin-left:  auto;
   margin-right: auto;
-
+  max-height: 60%;
   /* Prevent side-scrolling on mobile */
   overflow-x: hidden;
   position: relative;
